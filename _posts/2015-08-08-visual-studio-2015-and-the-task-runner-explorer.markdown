@@ -78,6 +78,6 @@ I really like the power of Gulp, and from looking online, it seems the possibili
 
 Useful VS 2015 - resources
 
-Gulp setup: http://blog.chrisbriggsy.com/Gulp-101-
+Gulp setup: [http://blog.chrisbriggsy.com/Gulp-101-CSS-all-the-LESS/]
 
-Gulp build error:  http://blog.icanmakethiswork.io/2014/12/gulp-npm-long-paths-and-visual-studio-fight.html
+Gulp build error:  [http://blog.icanmakethiswork.io/2014/12/gulp-npm-long-paths-and-visual-studio-fight.html]
