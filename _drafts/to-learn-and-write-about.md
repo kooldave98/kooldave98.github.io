@@ -1,0 +1,3 @@
+1. Service Fabric with Event store : This looks like the best strategy to migrate my console app services to a platform of micro-services
+2. Inter-service communication in Service Fabric.
+3. ...
