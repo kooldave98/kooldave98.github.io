@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "ES6 - (notable features)"
+title:  "ES6 - (Presentation)"
 published: true
 ---
 
-(Adapted from https://github.com/lukehoban/es6features)
+(Major elements in this presentation have been adapted from https://github.com/lukehoban/es6features)
 
 ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMAScript standard. ES6 is a significant update to the language, and introduces features that bring it closer to other languages like C# and Java.
 
