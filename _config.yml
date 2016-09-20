@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 author: David Olubajo
-title: Localhost
+title: David Olubajo
 email: contactme@davidolubajo.com
 description: > # this means to ignore newlines until "baseurl:"
   where it all begins..
@@ -27,4 +27,4 @@ github_username:  kooldave98
 markdown: kramdown
 theme: minima
 
-permalink: /:year/:month/:day/:title.html
+permalink: /posts/:year/:month/:day/:title.html
