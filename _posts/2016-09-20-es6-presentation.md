@@ -12,6 +12,7 @@ ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMASc
 Arrows are a function shorthand using the `=>` syntax. They are syntactically similar to the related feature in C#, Java 8 and CoffeeScript. They support both statement block bodies as well as expression bodies which return the value of the expression. Unlike functions, arrows share the same lexical this as their surrounding code.
 
 {% highlight js %}
+
     var nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
     
     // Expression bodies
@@ -40,6 +41,7 @@ Arrows are a function shorthand using the `=>` syntax. They are syntactically si
 ES6 classes are a simple sugar over the prototype-based OO pattern. Having a single convenient declarative form makes class patterns easier to use, and encourages interoperability. Classes support prototype-based inheritance, super calls, instance and static methods and constructors.
 
 {% highlight js %}
+
     class Animal {
       constructor(name) {
         this.name = name;
@@ -61,6 +63,7 @@ ES6 classes are a simple sugar over the prototype-based OO pattern. Having a sin
 Object literals are extended to support setting the prototype at construction, shorthand for foo: foo assignments, defining methods, making super calls, and computing property names with expressions. Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
 
 {% highlight js %}
+
     var the_proto = {
       toString(){
         return "proto"
@@ -92,6 +95,7 @@ Object literals are extended to support setting the prototype at construction, s
 Destructuring allows binding using pattern matching, with support for matching arrays and objects. Destructuring is fail-soft, similar to standard object lookup `foo["bar"]`, producing `undefined` values when not found.
 
 {% highlight js %}
+
     // list matching
     var [a, , b] = [
       1,2,3
@@ -124,6 +128,7 @@ Destructuring allows binding using pattern matching, with support for matching a
 Callee-evaluated default parameter values. Turn an array into consecutive arguments in a function call. Bind trailing parameters to an array. Rest replaces the need for arguments and addresses common cases more directly.
 
 {% highlight js %}
+
     //Default parameters
     function f(x, y=12) {
       // y is 12 if not passed (or passed as undefined)
@@ -156,6 +161,7 @@ Generators simplify iterator-authoring using `function*` and `yield`. A function
 Note: Can also be used to enable ‘await’-like async programming, see also ES7 await proposal.
 
 {% highlight js %}
+
       var days = function* () {
       
           for (var i = 0; i < 10; i++) {
@@ -176,5 +182,5 @@ Note: Can also be used to enable ‘await’-like async programming, see also ES
 {% endhighlight %}
 
 # Let's build a simple LINQ implementation
-
+https://gist.github.com/kooldave98/694da984f8a811b5fe4f6418d0ff1ae2.js
 <script src="https://gist.github.com/kooldave98/694da984f8a811b5fe4f6418d0ff1ae2.js"></script>
