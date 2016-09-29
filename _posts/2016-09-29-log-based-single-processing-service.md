@@ -1,4 +1,9 @@
-## Log-based single-processing SOA
+---
+layout: post
+title:  "Log-based single-processing SOA"
+published: true
+---
+## TL/DR
 In a nutshell, every incoming request/message is stuck unto a request queue, while a single message processor continuously dequeues, processes, and commits each request in a log and publishes any relevant events(messages) for any other interested services, all in a transcation.
 
 ## Self healing
