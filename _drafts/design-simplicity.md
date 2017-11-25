@@ -10,5 +10,4 @@ One thing I established at the time was there is a lot of code out there, (I cou
 
 I used to ask myself how could anyone possibly write all of this, not even with a team of the best developers in the world.
 
-But at the back of my mind, I knew there just had to be a way. I would think of all the many successful production projects out there, and tell myself: if they could do this
- then there must be a way.
+But at the back of my mind, I knew there just had to be a way. I would think of all the many successful production projects out there, and tell myself: if they could do this then there must be a way.
