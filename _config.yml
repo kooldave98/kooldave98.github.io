@@ -25,6 +25,6 @@ github_username:  kooldave98
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-hacker
 
 permalink: /posts/:year/:month/:day/:title.html
